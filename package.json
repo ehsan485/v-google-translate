@@ -1,5 +1,5 @@
 {
-  "name": "ahsan.naveed/v-google-translate",
+  "name": "@ahsan.naveed/v-google-translate",
   "version": "1.0.1",
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name v-google-translate src/packages/index.js",
+    "build": "vue-cli-service build --target lib --name @ahsan.naveed/v-google-translate src/packages/index.js",
     "test:unit": "cross-env BABEL_ENV=test vue-cli-service test:unit --coverage",
     "codecov": "codecov",
     "test": "yarn test:unit && yarn codecov",
